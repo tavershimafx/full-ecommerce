@@ -1,0 +1,57 @@
+.ad-banner1 .banner{
+    position: relative;
+    background-image: url('/assets/images/banners/banner-1.png');
+    background-size: contain;
+    height: 470px;
+    width: 100%;
+}
+
+.banner .content{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    width: 450px;
+}
+
+.banner .content .small-title{
+    font-size: 16;
+    color: #00FF66;
+}
+
+.banner .content .large-title{
+    font-size: 48px;
+    color: #fff;
+    font-family: 'Poppins-SemiBold';
+}
+
+.banner .timing .time{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    background-color: #fff;
+    text-align: center;
+    font-size: 12px;
+    align-content: center;
+}
+
+.banner .timing .time:not(:last-of-type){
+    margin-right: 20px;
+}
+
+.banner .timing .time span:first-of-type{
+    display: block;
+    font-size: 16px;
+    font-family: 'Poppins-Bold';
+}
+
+.banner .content .action-btn{
+    display: block;
+    width: max-content;
+    font-size: 16px;
+    color: #fff;
+    background-color: #00FF66;
+    padding: 8px 25px;
+    border-radius: 4px;
+    margin-top: 30px;
+}

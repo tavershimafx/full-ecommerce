@@ -1,0 +1,137 @@
+.categories-container{
+    width: 250px;
+    border-right: 1px solid #F5F5F5;
+    padding-top: 40px;
+    display: inline-block;
+}
+
+.categories-container nav,
+.categories-container nav ul{
+   margin: 0;
+   padding: 0;
+}
+
+.categories-container nav ul{
+    list-style-type: none;
+}
+
+.categories-container nav ul li{
+    padding: 8px 20px 8px 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories-container nav ul li:hover{
+    background-color: #FAFAFA;
+}
+
+.categories-container nav ul li span{
+    text-align: right;
+}
+
+.slider-container{
+    top: 40px;
+    position: relative;
+    float: right;
+    right: 80px;
+    overflow-x: hidden;
+}
+
+.slider-container .slide-picture{
+    position: relative;
+    height: 270px;
+    width: 750px;
+    background-image: url('/assets/images/sliders/slider-1.png');
+    background-size: contain;
+    background-position: top;
+    animation: main-slider 1s ease-in 0s 1 normal;
+}
+
+.slider-container .slide-item .text-content{
+    position: absolute;
+    width: 280px;
+    left: 42px;
+    top: 32px;
+    z-index: 1;
+    animation-fill-mode: forwards;
+    animation: slide-in-txt-content 0.8s ease-in 0.4s 1 normal;
+    overflow: hidden;
+}
+
+.slider-container .slide-indicators{
+    position: relative;
+    top: -20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.slider-container .slide-indicators .indicator{
+    height: 8px;
+    width: 8px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+    margin-right: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.slider-container .slide-indicators .indicator.active{
+    background-color: #EB5757;
+    border: 1px solid #fff;
+}
+
+/* .slide-item .text-content:nth-child(2){
+    animation: zoom-in-txt-content 0.8s ease-in 0.4s 1 normal;
+}
+
+.slide-item .text-content:nth-child(3){
+    animation: slider-txt-content 0.8s ease-in 0.4s 1 normal;
+}
+
+.slide-item .text-content:nth-child(4){
+    animation: slider-txt-content 0.8s ease-in 0.4s 1 normal;
+} */
+
+.slide-item .text-content *{
+    color: #fff;
+}
+
+.slide-item .text-content .fa-apple{
+    font-size: 32px;
+    vertical-align: sub;
+    margin-right: 16px;
+}
+
+.slide-item .text-content .large-txt{
+    font-size: 48px;
+    line-height: 1.2em;
+}
+
+@keyframes main-slider{
+    from{
+        right: -100%;
+    }
+    to{
+        right: 0px;
+    }
+}
+
+@keyframes slide-in-txt-content{
+    0%{
+        transform: translateY(-100%);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes zoom-in-txt-content{
+    from{
+        transform: scale(20%, 20%);
+    }
+    to{
+        transform: scale(100%, 100%);
+    }
+}

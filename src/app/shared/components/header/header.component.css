@@ -1,0 +1,131 @@
+.announcements{
+    position: relative;
+    background-color: #000;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.announcements .e-content{
+    display: inline-block;
+    padding: 12px 0;
+}
+
+.announcements .e-content.mid{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    width: 60%;
+}
+
+.announcements .e-content:first-of-type,
+.announcements .e-content:last-of-type{
+    width: 20%;
+}
+
+.announcements .e-content.mid p{
+    display: inline-block;
+    color: #b1b1b1;
+    margin: 0;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+.announcements .e-content a{
+    color: #fff !important;
+    font-size: 14px;
+}
+
+.e-content .language-dropdown p{
+    font-size: 14px;
+    color: #fff !important;
+    margin: 0;
+}
+
+.e-content .language-dropdown p span{
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.top-navbar{
+    border-bottom: 1px solid #d9d9d98e;
+}
+
+.top-navbar .logo{
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+
+.top-navbar .logo p{
+   margin: 0;
+}
+
+.top-navbar nav{
+    display: inline-block;
+    width: 45%;
+}
+
+.top-navbar nav ul.nav-list{
+    list-style-type: none;
+    margin-bottom: 0;
+    margin-left: 20px;
+    padding: 0;
+}
+
+.top-navbar nav ul.nav-list li{
+    display: inline-block;
+    padding: 30px 20px 20px 20px;
+}
+
+.top-navbar nav ul.nav-list li a:hover{
+    text-decoration: underline;
+}
+
+.actions-container{
+    display: inline-block;
+    width: 35%;
+    padding-bottom: 10px;
+}
+
+.actions-container .rowling{
+    display: flex;
+    align-items: center;
+}
+
+.actions-container form{
+    display: inline-block;
+    width: 80%;
+}
+
+.actions-container .search-box{
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.actions-container .search-box input{
+    outline: none;
+    border: none;
+    background-color: #F5F5F5;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.actions-container .search-box button{
+    padding: 5px;
+    outline: none;
+    border: none;
+    background-color: #F5F5F5;
+    cursor: pointer;
+}
+
+.actions-container span a{
+    padding: 10px;
+    text-align: center;
+    justify-items: center;
+}
+
+.actions-container span a:hover{
+    background-color: #FAFAFA;
+}
