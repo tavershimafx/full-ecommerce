@@ -80,29 +80,29 @@
        margin-top: 45px;
    }
    
-   .slide-items .slide-item{
+.product-item{
        display: inline-block;
        margin-top: 10px;
    }
    
-   .slide-items .slide-item:not(:last-of-type){
+  .product-item:not(:last-of-type){
        margin-right: 15px;
    }
    
-   .slide-items .slide-item .title{
+   .product-item .title{
        text-transform: uppercase;
        font-family: 'Poppins-Medium';
        font-size: 16px;
        margin: 10px 0 0 0;
    }
    
-   .slide-items .slide-item .product-image{
+   .product-item .product-image{
        border-radius: 4px;
        overflow: hidden;
        position: relative;
    }
    
-   .slide-items .slide-item .product-image .discount{
+   .product-item .product-image .discount{
        position: absolute;
        padding: 3px 10px;
        background-color: #EB5757;
@@ -113,11 +113,11 @@
        top: 10px;
    }
    
-   .slide-items .slide-item .product-image .discount.new{
+   .product-item .product-image .discount.new{
        background-color: #00FF66;
    }
    
-   .slide-items .slide-item .product-image .wish-actions{
+   .product-item .product-image .wish-actions{
        position: absolute;
        top: 10px;
        right: 10px;
@@ -125,23 +125,23 @@
        animation: fade-in 1s;
    }
    
-   .slide-items .slide-item .product-image .wish-actions i{
+   .product-item .product-image .wish-actions i{
        display: block;
        padding: 8px;
        border-radius: 100%;
        background-color: #FFF;
    }
    
-   .slide-items .slide-item .product-image .wish-actions i:last-of-type{
+   .product-item .product-image .wish-actions i:last-of-type{
        margin-top: 10px;
    }
    
-   .slide-items .slide-item .product-image:hover .quick-to-cart,
-   .slide-items .slide-item .product-image:hover .wish-actions{
+   .product-item .product-image:hover .quick-to-cart,
+   .product-item .product-image:hover .wish-actions{
        display: block;
    }
    
-   .slide-items .slide-item .product-image .quick-to-cart{
+   .product-item .product-image .quick-to-cart{
        position: absolute;
        width: 100%;
        display: none;
@@ -155,18 +155,18 @@
        animation: fade-in 1s;
    }
    
-   .slide-items .slide-item img{
+   .product-item img{
        width: 250px;
    }
    
-   .slide-items .slide-item .prices .curr{
+   .product-item .prices .curr{
        display: inline-block;
        font-size: 16px;
        color: #EB5757;
        margin: 0 10px 0 0;
    }
    
-   .slide-items .slide-item .prices .old{
+   .product-item .prices .old{
        display: inline-block;
        font-size: 16px;
        color: rgba(0, 0, 0, 0.527);
@@ -174,13 +174,13 @@
        text-decoration: line-through;
    }
    
-   .slide-items .slide-item .rating i{
+   .product-item .rating i{
        font-size: 12px;
        color: #FFAD33;
        margin-right: 5px;
    }
    
-   .slide-items .slide-item .rating span:last-of-type{
+   .product-item .rating span:last-of-type{
        margin-left: 10px;
        font-size: 12px;
    }

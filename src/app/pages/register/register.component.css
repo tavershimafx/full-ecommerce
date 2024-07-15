@@ -1,0 +1,99 @@
+.auth-layout {
+    display: flex;
+    margin-top: 50px;
+}
+
+.auth-layout .appraisal{
+    width: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.auth-layout .appraisal img{
+    width: 600px;
+}
+
+.auth-layout .login-form{
+    width: 40%;
+    height: max-content;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 150px;
+}
+
+.auth-layout .login-form h1{
+    font-size: 36px;
+    font-family: 'Poppins-Medium';
+}
+
+.auth-layout .login-form form input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.705);
+    padding-top: 15px;
+    padding-bottom: 2px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.auth-layout .login-form form input:last-of-type{
+    margin-bottom: 20px;
+}
+
+.auth-layout .login-form form input:focus{
+    border-bottom: 1px solid #EB5757;
+}
+
+.auth-layout .login-form form button{
+    display: block;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    padding: 12px 10px;
+    margin-top: 15px;
+}
+
+.auth-layout .login-form form button.solid{
+    background-color: #EB5757;
+    color: #fff;
+}
+
+.auth-layout .login-form form button.solid.compact{
+    display: inline-block;
+    width: max-content;
+    padding: 12px 30px;
+}
+
+.auth-layout .login-form form button.outline{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+}
+
+.auth-layout .login-form .lg-reg{
+    margin-top: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.726);
+}
+
+.auth-layout .login-form .lg-reg a{
+    text-decoration: underline;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.705);
+}
+
+.auth-layout .login-form .forgot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.auth-layout .login-form .forgot p, .auth-layout .login-form .forgot p a{
+    margin: 0;
+    color: #EB5757;
+}

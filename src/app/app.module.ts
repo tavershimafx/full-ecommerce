@@ -11,6 +11,10 @@ import { CategoryWidgetComponent } from './shared/widgets/category-widget/catego
 import { FlashSalesComponent } from './shared/widgets/flash-sales/flash-sales.component';
 import { BannerOneComponent } from './shared/widgets/banner-1/banner-1.component';
 import { BannerTwoComponent } from './shared/widgets/banner-2/banner-2.component';
+import { HomePageComponent } from './pages/home/home.component';
+import { LoginPageComponent } from './pages/login/login.component';
+import { RegisterPageComponent } from './pages/register/register.component';
+import { WishListPageComponent } from './pages/wishlist/wishlist.component';
 
 const components = [
   AppHeaderComponent,
@@ -20,7 +24,13 @@ const components = [
   CategoryWidgetComponent,
   FlashSalesComponent,
   BannerOneComponent,
-  BannerTwoComponent
+  BannerTwoComponent,
+
+  //pages
+  HomePageComponent,
+  LoginPageComponent,
+  RegisterPageComponent,
+  WishListPageComponent
 ]
 @NgModule({
   declarations: [

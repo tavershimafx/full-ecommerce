@@ -1,0 +1,18 @@
+.wishlist{
+    margin-top: 30px;
+}
+
+.wish-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.wish-head h1{
+    font-size: 20px;
+}
+
+.wish-products{
+    margin-top: 50px;
+}
