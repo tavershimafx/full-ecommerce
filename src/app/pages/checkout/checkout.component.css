@@ -1,0 +1,63 @@
+.checkout{
+    margin-top: 50px;
+}
+
+h1{
+    font-size: 36px;
+}
+
+.billing-details {
+    padding-right: 100px;
+}
+
+.billing-details *{
+    display: block;
+}
+
+.check-inline input{
+    display: inline-block;
+    margin-right: 10px;
+    width: auto;
+}
+
+.items-view{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items-view.pr-img{
+    margin: 0 60px 20px 0;
+}
+
+.items-view.pr-img img{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.items-view.summation{
+    margin: 0 60px 0 0;
+    padding: 15px 0;
+    border-bottom: 1px solid #000;
+}
+
+.items-view.summation p{
+    margin: 0;
+}
+
+.items-view.payment{
+    margin: 0 60px 0 0;
+    padding-top: 15px;
+}
+
+.items-view.payment p{
+    margin: 0;
+}
+
+.items-view.payment img{
+    width: 200px;
+}
+
+.coupon-box input{
+    margin: 20px 20px 20px 0;
+}

@@ -1,0 +1,155 @@
+.account{
+    margin-top: 50px;
+}
+
+.product-row{
+    display: flex;
+}
+
+.product-row .product-view{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-right: 40px;
+}
+
+.product-row .product-view .thumbnails{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+.product-row .product-view .thumbnails img{
+    width: 50%;
+}
+
+.product-row .product-view .thumbnails img:hover{
+    border: 1px solid #000;
+    border-radius: 4px;
+}
+
+.product-row .product-view .thumbnails img:not(:first-of-type){
+    margin-top: 10px;
+}
+
+.product-row .product-view .show-view{
+    width: 70%;
+}
+
+.product-row .product-view .show-view img{
+    width: 70%;
+    animation: scale-in 0.8s forwards;
+}
+
+.product-row .product-view .show-view img:hover{
+    animation: scale-out 0.8s forwards;
+}
+
+@keyframes scale-in {
+    from{
+        transform: scale(1.3);
+    }
+
+    to{
+        transform: scale(1);
+    }
+}
+
+@keyframes scale-out {
+    to{
+        transform: scale(1.3);
+    }
+}
+
+.product-row .details-view{
+    width: 40%;
+}
+
+.details-view .title{
+    font-family: "Poppins-SemiBold";
+    font-size: 24px;
+}
+
+.details-view .reviews, .details-view .reviews .fa-star.regular{
+    font-size: 14px;
+    color: #D5D5D5;
+}
+
+.details-view .reviews .fa-star{
+    color: #FFAD33;
+}
+
+.details-view .reviews .is-stock{
+    color: #00FF66;
+}
+
+.details-view .price{
+    font-size: 24px;
+}
+
+.details-view .short-description{
+    font-size: 14px;
+}
+
+.details-view .conversion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.details-view .conversion .qty-action{
+    border: 1px solid #000;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.details-view .conversion .qty-action button{
+    font-size: 14px;
+    font-family: 'Poppins-Medium';
+    padding: 13px 20px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.details-view .conversion .qty-action button:hover,
+.details-view .conversion .wish:hover{
+    background-color: #EB5757;
+    color: #fff;
+}
+
+.details-view .conversion .qty-action .minus{
+    border-right: 1px solid #000;
+}
+
+.details-view .conversion .qty-action .plus{
+    border-left: 1px solid #000;
+}
+
+.details-view .conversion .qty-action input{
+    border: none;
+    outline: none;
+    padding: 10px 4px;
+    margin: 0;
+    width: 50px;
+    text-align: center;
+}
+
+button.theme-btn{
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+
+.details-view .conversion .wish{
+    border: none;
+    outline: none;
+    margin: 0;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid #000;
+    border-radius: 4px;
+}

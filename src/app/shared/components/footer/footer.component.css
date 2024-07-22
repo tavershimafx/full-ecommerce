@@ -46,10 +46,6 @@
     cursor: pointer;
 }
 
-.info {
-    /* margin-left: 15px; */
-}
-
 .info *{
     color: #fff;
 }
@@ -65,6 +61,7 @@
 
 .info p{
     font-size: 14px;
+    word-wrap: break-word;
 }
 
 .info ul{

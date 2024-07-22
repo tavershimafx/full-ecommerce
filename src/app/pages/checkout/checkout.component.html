@@ -1,0 +1,78 @@
+<section class="container checkout">
+  <div class="page-direction">
+    <span><a routerLink="/account">Account</a></span>/
+    <span><a routerLink="/">My Account</a></span>/
+    <span><a routerLink="/">Product</a></span>/
+    <span><a routerLink="cart">View Cart</a></span>/
+    <span class="active">Checkout</span>
+  </div>
+  <h1>Billing Details</h1>
+  <div class="row">
+    <div class="col-md-6 billing-details">
+      <form action="">
+        <label for="firstName">First Name</label>
+        <input class="flat" type="text" placeholder="First Name">
+  
+        <label for="CompanyName">Company Name</label>
+        <input class="flat" type="text" placeholder="Company Name">
+  
+        <label for="StreetAddress">Street Address</label>
+        <input class="flat" type="text" placeholder="Street Address">
+        
+        <label for="Apartment">Apartment, floor etc(optional)</label>
+        <input class="flat" type="text" placeholder="Apartment, floor etc(optional)">
+        
+        <label for="TownCity">Town/City</label>
+        <input class="flat" type="text" placeholder="Town/City">
+        
+        <label for="PhoneNumber">Phone Number</label>
+        <input class="flat" type="text" placeholder="Phone Number">
+        
+        <label for="EmailAddress">Email Address</label>
+        <input class="flat" type="email" placeholder="Email Address">
+
+        <label for="" class="check-inline">
+          <input type="checkbox"> Save this information for faster checkout next time
+        </label>
+      </form>
+    </div>
+    <div class="col-md-6">
+      <div class="items-view pr-img">
+        <div><img src="/assets/images/products/product-1.png" alt=""> LCD Monitor</div>
+        <p>₦650</p>
+      </div>
+      <div class="items-view pr-img">
+        <div><img src="/assets/images/products/product-1.png" alt="">Hi Gamepad</div>
+        <p>₦650</p>
+      </div>
+      <div class="items-view summation">
+        <p>Subtotal</p>
+        <p>₦650</p>
+      </div>
+      <div class="items-view summation">
+        <p>Shipping</p>
+        <p>Free</p>
+      </div>
+      <div class="items-view summation">
+        <p>Total</p>
+        <p>₦650</p>
+      </div>
+      <div class="items-view payment">
+        <label for="cash">
+          <input type="radio" /> Bank
+        </label>
+        <img src="/assets/images/icons/pay-method.png" alt="">
+      </div>
+      <div class="items-view payment">
+        <label for="cash">
+          <input type="radio" /> Cash on Delivery
+        </label>
+      </div>
+      <div class="coupon-box">
+        <input class="box" type="text" placeholder="Coupon Code">
+        <button class="theme-btn">Apply Coupon</button>
+      </div>
+      <button class="theme-btn">Place Order</button>
+    </div>
+  </div>
+</section>

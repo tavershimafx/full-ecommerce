@@ -51,8 +51,42 @@ section{
     display: block !important;
 }
 
+form label:not(:first-of-type){
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+input.box{
+    border: 1px solid #000;
+    border-radius: 4px;
+    outline: none;
+    font-size: 14px;
+    color: #000;
+    padding: 10px;
+}
+
+input.flat, textarea.flat{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 0;
+    background-color: #F5F5F5;
+}
+
+.theme-btn{
+    padding: 12px 30px;
+    color: #fff !important;
+    font-size: 16px;
+    background-color: #EB5757;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
 .outline-button{
-    display: block;
+    display: inline-block;
     outline: none;
     border: none;
     border-radius: 4px;
@@ -119,4 +153,22 @@ section{
     to{
         opacity: 1;
     }
+}
+
+.page-direction{
+    margin: 40px 0;
+    color: #d9d9d9;
+    font-size: 14px;
+}
+
+.page-direction a{
+    color: #d9d9d9;
+}
+
+.page-direction span{
+    margin-right: 10px;
+}
+
+.page-direction span.active{
+    color: #000;
 }

@@ -1,0 +1,24 @@
+.account{
+    margin-top: 50px;
+}
+
+.row{
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.row *{
+    display: block;
+}
+
+h1{
+    font-size: 110px;
+    font-family: 'Poppins-Medium';
+}
+
+p, a{
+    margin-top: 20px;
+}

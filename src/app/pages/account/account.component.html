@@ -1,0 +1,64 @@
+<section class="container account">
+  <div class="page-direction">
+    <span><a routerLink="/">Home</a></span>/
+    <span class="active">My Account</span>
+  </div>
+  
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Manage My Account</h3>
+        <nav class="account-nav">
+          <ul>
+            <li class="active"><a routerLink="">My Profile</a></li>
+            <li><a routerLink="">Address Book</a></li>
+            <li><a routerLink="">My Payment Option</a></li>
+          </ul>
+        </nav>
+      <h3>My Orders</h3>
+       <nav class="account-nav">
+          <ul>
+            <li><a routerLink="">My Returns</a></li>
+            <li><a routerLink="">My Cancellations</a></li>
+          </ul>
+       </nav>
+      <h3>My Wishlist</h3>
+    </div>
+    <div class="col-md-8">
+      <div class="open-view">
+        <h2>Edit Your Profile</h2>
+        <form action="">
+          <div class="row">
+            <div class="col-md-6">
+              <label for="FirstName">First Name</label>
+              <input type="text" class="flat" placeholder="First Name">
+            </div>
+            <div class="col-md-6">
+              <label for="LastName">Last Name</label>
+              <input type="text" class="flat" placeholder="Last Name">
+            </div>
+            <div class="col-md-6">
+              <label for="Email">Email</label>
+              <input type="email" class="flat" placeholder="Email">
+            </div>
+            <div class="col-md-6">
+              <label for="Address">Address</label>
+              <input type="text" class="flat" placeholder="Address">
+            </div>
+            <div class="col-md-12">
+              <label for="CurrentPassword">Current Password</label>
+              <input type="password" class="flat" placeholder="Current Password">
+            </div>
+            <div class="col-md-12">
+              <label for="NewPassword">New Password</label>
+              <input type="password" class="flat" placeholder="New Password">
+            </div>
+          </div>
+          <div class="btns">
+            <button class="outline-button">Cancel</button>
+            <button class="theme-btn">Save Changes</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,48 @@
+.contact{
+    margin-top: 50px;
+}
+
+.contact-card{
+    padding: 40px 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.icon-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon-group:last-of-type{
+    margin-top: 20px;
+}
+
+.contact-card > p{
+    margin: 0;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.icon-group p{
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Poppins-Medium';
+}
+
+.icon-group img{
+    margin-right: 10px;
+}
+
+.open-view{
+    padding: 40px 50px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+textarea{
+    margin-top: 20px;
+}
+
+.btns{
+    text-align: right;
+    margin-top: 20px;
+}

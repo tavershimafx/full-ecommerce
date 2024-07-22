@@ -1,0 +1,58 @@
+<section class="container cart">
+  <div class="page-direction">
+    <span><a routerLink="/">Home</a></span>/
+    <span class="active">Cart</span>
+  </div>
+  <div class="responsive-table">
+    <div class="table">
+      <div class="thead">
+        <div class="th">Product</div>
+        <div class="th">Price</div>
+        <div class="th">Quantity</div>
+        <div class="th">Sub Total</div>
+      </div>
+      <div class="tbody">
+        <div class="tr">
+          <div class="td"><img src="/assets/images/products/product-1.png" alt=""></div>
+          <div class="td">₦650</div>
+          <div class="td"><input type="number"></div>
+          <div class="td">₦650</div>
+        </div>
+        <div class="tr">
+          <div class="td"><img src="/assets/images/products/product-3.png" alt=""></div>
+          <div class="td">₦650</div>
+          <div class="td"><input type="number"></div>
+          <div class="td">₦650</div>
+        </div>
+      </div>
+    </div>
+    <div class="cart-actions">
+      <a class="outline-button" routerLink="/">Return To Shop</a>
+      <button class="outline-button">Update Cart</button>
+    </div>
+  </div>
+  <div class="cart-bottom">
+    <div class="apply-coupon">
+      <form action="">
+        <input type="text" class="box" placeholder="Coupon Code">
+        <button class="theme-btn">Apply Coupon</button>
+      </form>
+    </div>
+    <div class="cart-summary">
+      <p>Cart Total</p>
+      <div class="total-row">
+        <p>Subtotal:</p>
+        <p>₦650</p>
+      </div>
+      <div class="total-row">
+        <p>Shipping:</p>
+        <p>Free</p>
+      </div>
+      <div class="total-row">
+        <p>Total:</p>
+        <p>₦650</p>
+      </div>
+      <div class="check-now"><button class="theme-btn">Proceed To Checkout</button></div>
+    </div>
+  </div>
+</section>

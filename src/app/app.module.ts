@@ -15,6 +15,12 @@ import { HomePageComponent } from './pages/home/home.component';
 import { LoginPageComponent } from './pages/login/login.component';
 import { RegisterPageComponent } from './pages/register/register.component';
 import { WishListPageComponent } from './pages/wishlist/wishlist.component';
+import { CartPageComponent } from './pages/cart/cart.component';
+import { CheckoutPageComponent } from './pages/checkout/checkout.component';
+import { AccountPageComponent } from './pages/account/account.component';
+import { ContactPageComponent } from './pages/contact/contact.component';
+import { NotFoundPageComponent } from './pages/404/404.component';
+import { ProductDetailComponent } from './pages/product-detail/product-detail.component';
 
 const components = [
   AppHeaderComponent,
@@ -30,7 +36,13 @@ const components = [
   HomePageComponent,
   LoginPageComponent,
   RegisterPageComponent,
-  WishListPageComponent
+  WishListPageComponent,
+  CartPageComponent,
+  CheckoutPageComponent,
+  AccountPageComponent,
+  ContactPageComponent,
+  NotFoundPageComponent,
+  ProductDetailComponent
 ]
 @NgModule({
   declarations: [
